@@ -1,0 +1,47 @@
+<div class="story">
+<h1>Historia sobre os convidados do casamento da Mayara com o Moises</h1>
+<div class="path">Musica.story</div>
+<div class="narrative"><h2>Narrative:</h2>
+<div class="element inOrderTo"><span class="keyword inOrderTo">In order to</span> organizar uma festa de casamento topzera</div>
+<div class="element asA"><span class="keyword asA">As a</span> noiva</div>
+<div class="element iWantTo"><span class="keyword iWantTo">I want to</span> gerenciar minha trilha sonora</div>
+</div>
+<div class="scenario">
+<h2>Scenario: Escolher banda de m&uacute;sica</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given uma lista de &lt;numero&gt; opcoes de bandas</div>
+<div class="step">When for conhecida as opcoes. Exemplo: &lt;bandas&gt;</div>
+<div class="step">Then verificar se foi escolhida &lt;escolha&gt; banda(s) automaticamente</div>
+<table>
+<thead>
+<tr>
+<th>numero</th><th>bandas</th><th>escolha</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>2</td><td>safadao,dj pen drive</td><td>safadao</td></tr>
+<tr>
+<td>5</td><td>pen1,pen2,pen3,pen4,pen5</td><td>pen4</td></tr>
+<tr>
+<td>3</td><td>roupa nova,klb,katinguele</td><td>roupa nova</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {numero=2, bandas=safadao,dj pen drive, escolha=safadao}</h3>
+<div class="step successful">Given uma lista de <span class="step parameter">2</span> opcoes de bandas</div>
+<div class="step successful">When for conhecida as opcoes. Exemplo: <span class="step parameter">safadao,dj pen drive</span></div>
+<div class="step successful">Then verificar se foi escolhida <span class="step parameter">safadao</span> banda(s) automaticamente</div>
+
+<h3 class="example">Example: {numero=5, bandas=pen1,pen2,pen3,pen4,pen5, escolha=pen4}</h3>
+<div class="step successful">Given uma lista de <span class="step parameter">5</span> opcoes de bandas</div>
+<div class="step successful">When for conhecida as opcoes. Exemplo: <span class="step parameter">pen1,pen2,pen3,pen4,pen5</span></div>
+<div class="step successful">Then verificar se foi escolhida <span class="step parameter">pen4</span> banda(s) automaticamente</div>
+
+<h3 class="example">Example: {numero=3, bandas=roupa nova,klb,katinguele, escolha=roupa nova}</h3>
+<div class="step successful">Given uma lista de <span class="step parameter">3</span> opcoes de bandas</div>
+<div class="step successful">When for conhecida as opcoes. Exemplo: <span class="step parameter">roupa nova,klb,katinguele</span></div>
+<div class="step successful">Then verificar se foi escolhida <span class="step parameter">roupa nova</span> banda(s) automaticamente</div>
+</div>
+</div>
+</div>
